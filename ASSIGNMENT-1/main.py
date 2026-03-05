@@ -76,7 +76,7 @@ def search_products(keyword: str):
     }
 
 
-# ⭐ Bonus Deals Endpoint
+# Bonus Deals Endpoint
 @app.get("/products/deals")
 def product_deals():
 
